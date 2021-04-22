@@ -1,0 +1,91 @@
+.active {
+    color:red;
+}
+
+.estilobotones {
+    width: 25%;
+    height: auto;
+    background-color:rgb(151, 204, 211);
+    font-size: 30px;
+    border-color: #70724f;
+}
+
+.estilosimbolos {
+    width: 25%;
+    height: auto;
+    background-color:rgb(152, 173, 164);
+    font-size: 30px;
+    border-color: #70724f;
+
+}
+
+.estilosimbolosredondeadodeerecha {
+    width: 25%;
+    height: auto;
+    background-color:rgb(152, 173, 164);
+    font-size: 30px;
+    border-color: #70724f;
+    border-radius: 0px 0px 5px 0px;
+
+
+}
+.estilosimbolosredondeadoizquierda {
+    width: 50%;
+    height: auto;
+    background-color:rgb(151, 204, 211);
+    font-size: 30px;
+    border-color: #70724f;
+    border-radius: 0px 0px 0px 5px;
+
+
+
+}
+.estiloinput {
+    width: 100%;
+    height: 13%;
+    background-color:rgb(159, 186, 202);
+    color: aliceblue;
+    font-size: 30px;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    border: 2px solid #70724f;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.contenedor {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedorbotones{
+    display: flex;
+    grid-template-rows: repeat(5 , auto);
+    grid-template-columns: repeat(4 , auto );
+    width: 100%;
+    height: 416px;
+    flex-wrap: wrap;
+    
+}
+
+.contenedorgeneral{
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 590px;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(50, 55, 77);
+    border-radius: 10px 10px 10px 10px;
+
+
+}
+
+.estilocontenidoinput{
+    margin-right: 10px;
+}
